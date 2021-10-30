@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .firstsection {
+    width: 1050px;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  .secondsection {
+    width: 1000px;
+    height: 500px;
+;
+    background-color:#E1EBE6;
+    background-clip: content-box;
+
+    text-align: center;
+  }
+  
+  .thirdsection {
+    width: 1000px;
+    height: 500px;
+;
+    background-color:white;
+    background-clip: content-box;
+
+    text-align: center;
+  }
+  
+  .forthsection {
+    width: 1000px;
+    height: 500px;
+;
+    background-color:white;
+    background-clip: content-box;
+
+    text-align: center;
+  }
+  .fifthection {
+    width: 1000px;
+    height: 500px;
+;
+    background-color:#E1EBE6;
+    background-clip: content-box;
+
+    text-align: center;
+  }
+  .sixthsection {
+    width: 1000px;
+    height: 500px;
+;
+    background-color:#E1EBE6;
+    background-clip: content-box;
+
+    text-align: center;
+  }
+
+  .icon-alignment {
+      float: left;
+      position: relative;
+
+  }
+
+  em {
+    text-emphasis-color: #F6B400;
+    text-emphasis-style: open;
+  }
+
+ .burger-logo {
+     text-align: left;
+     padding-top: 30px;
+     position: relative;
+   }
+.home {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-right: 30px;
+    position: relative;
+
+   }
+.offers {
+    position: relative;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px
+}
+.contact {
+    position: relative;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px
+}
+.about {
+    position: relative;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px
+}
