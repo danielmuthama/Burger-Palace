@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
   }
   .nav-section {
-    width: 100%;
+    width: 85%;
     height: 50px;
     background-color:white;
     display: flex;
@@ -15,7 +15,7 @@ body {
   }
 
     .firstsection {
-        width: 100%;
+        width: 85%;
         height: 600px;
         background-color:white;
         display: flex;
@@ -50,17 +50,27 @@ body {
 
   }
   .secondsection {
-    width: 100%;
+    width: 85%;
     height: 500px;
-;
     background-color:#E1EBE6;
     background-clip: content-box;
-
+    display: flex;
     text-align: center;
+    justify-content: center;
   }
-  
+  .secondsection > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid black 1px;
+    
+  }
+  .quality-burgers {
+      height
+  }
+
   .thirdsection {
-    width: 100%;
+    width: 85%;
     height: 500px;
 ;
     background-color:white;
@@ -70,7 +80,7 @@ body {
   }
   
   .forthsection {
-    width: 100%;
+    width: 85%;
     height: 500px;
 ;
     background-color:white;
@@ -79,7 +89,7 @@ body {
     text-align: center;
   }
   .fifthection {
-    width: 100%;
+    width: 85%;
     height: 500px;
 ;
     background-color:#E1EBE6;
@@ -88,7 +98,7 @@ body {
     text-align: center;
   }
   .sixthsection {
-    width: 100%;
+    width: 85%;
     height: 500px;
 ;
     background-color:#E1EBE6;
