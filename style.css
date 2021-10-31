@@ -66,20 +66,21 @@ body {
     border: solid black 1px;
     justify-items: center;
    
-
     
   }
   .quality-burgers {
       height: 60%;
       margin-top: 10%;
       width: 25%;
+      border-radius: 15px;
+
   }
   .fast-delivery {
     height: 80%;
     width: 30%;
     border-radius: 15px;
 }
-.delicious-meals {
+  .delicious-meals {
     height: 60%;
     width: 25%;
     border-radius: 15px;
@@ -87,7 +88,6 @@ body {
   .thirdsection {
     width: 85%;
     height: 500px;
-;
     background-color:white;
     background-clip: content-box;
 
@@ -175,11 +175,22 @@ body {
 
 .advert {
     font-size: 20px;
-    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8%
 }
 .content {
     font-size: 15px;
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif
 
 }
-
+p{
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon {
+    padding-top: 20%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+.
