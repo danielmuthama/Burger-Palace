@@ -85,23 +85,59 @@ body {
     width: 25%;
     border-radius: 15px;
 }
-  .thirdsection {
+  .cart-title {
+    width: 85%;
+    height: 100px;
+    background-color:white;
+    background-clip: content-box;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 30px;
+  }
+  .thirdsection-1 {
     width: 85%;
     height: 500px;
     background-color:white;
     background-clip: content-box;
-
+    display: flex;
     text-align: center;
-  }
+    justify-content: center;
+    align-items: center;
+}
+ .thirdsection-1 > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid black 1px;
+    justify-items: center;
+ }
+  .thirdsection-2 {
+    width: 85%;
+    height: 500px;
+    background-color:white;
+    background-clip: content-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.thirdsection-2 > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid black 1px;
+    justify-items: center;
+}
   
   .forthsection {
     width: 85%;
     height: 500px;
-;
     background-color:white;
     background-clip: content-box;
-
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .fifthection {
     width: 85%;
@@ -189,8 +225,4 @@ p{
 .icon {
     padding-top: 20%;
 }
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-.
+
