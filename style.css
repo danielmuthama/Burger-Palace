@@ -141,7 +141,7 @@ body {
   }
   .fifthsection {
     width: 85%;
-    height: 600px;
+    height: 650px;
     background-color: #F6B400;
     background-clip: content-box;
     text-align: center;
@@ -292,4 +292,24 @@ p{
     position: absolute;
     left:120px;
     top: 3720px;
+}
+.search-bar {
+    position: absolute;
+    left: 760px;
+    top: 3800px;
+}
+.email {
+    position: absolute;
+    left: 760px;
+    top: 3740px;
+}
+.copyright {
+    position: absolute;
+    left: 30px;
+    top: 3850px
+}
+.designer {
+    position: absolute;
+    left: 760px;
+    top: 3850px;
 }
