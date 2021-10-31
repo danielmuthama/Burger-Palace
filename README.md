@@ -1,0 +1,1 @@
+This code entails a landing page of Burger Palace. it consist of three modules css file, html file and asset folder holding the palace's images. 

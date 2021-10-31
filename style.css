@@ -212,7 +212,7 @@ body {
 .advert {
     font-size: 20px;
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-    padding: 8%
+    padding: 6%
 }
 .content {
     font-size: 15px;
@@ -223,6 +223,6 @@ p{
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 .icon {
-    padding-top: 20%;
+    padding-top: 12%;
 }
 
