@@ -255,10 +255,41 @@ p{
 }
 .contacts {
     position: absolute;
-    left: 40px;
-    top: 3150px;
+    left: 60px;
+    top: 3100px;
     font-weight: 700;
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     text-align: left;
+}
+.contact-icon1 {
+    position: absolute;
+    left: 60px;
+    top: 3320px;
+
+}
+.contact-icon2 {
+    position: absolute;
+    left: 210px;
+    top: 3320px;
+}
+.phone-icon1 {
+    position: absolute;
+    top: 3250px;
+    left: 550px
+}
+.phone-icon2 {
+    position: absolute;
+    top: 3250px;
+    left: 750px
+}
+.icon-alignment2 {
+    position: absolute;
+    top: 3700px;
+    left: 20px;
+}
+.burger-logo2 {
+    position: absolute;
+    left:120px;
+    top: 3720px;
 }
