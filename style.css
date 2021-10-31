@@ -8,7 +8,7 @@ body {
   }
   .nav-section {
     width: 100%;
-    height: 30px;
+    height: 50px;
     background-color:white;
     display: flex;
     flex-direction: row;
@@ -16,13 +16,39 @@ body {
 
     .firstsection {
         width: 100%;
-        height: 500px;
+        height: 600px;
         background-color:white;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        padding-top: 120px;
+        align-content: flex-end;
+        margin-left: 70px;
 
   }
   
+  .order-now {
+      width: 100px;
+      height: 40px;
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: #F6B400;
+      border-color: white;
+      margin-top: 100px;
+      margin-left: 75px;
+      flex-direction: row;
+  }
+  .city-image-alignment {
+      position:absolute;
+      left: 550px;
+      top: 150px;
+      height: auto; 
+      width: auto; 
+      max-width: 400px; 
+      max-height: 400px;
+      
+
+  }
   .secondsection {
     width: 100%;
     height: 500px;
@@ -83,16 +109,18 @@ body {
 
  .burger-logo {
      text-align: left;
-     padding-top: 30px;
+     padding-top: 25px;
      position: relative;
+     font-weight: 800;
    }
    a:hover {
     border-bottom: 2px solid red;
 }
 .home {
     text-align: left;
-    padding-top: 20px;
-    padding-left: 300px;
+    padding-top: 25px;
+    margin-left: 300px;
+    padding-left: 30px;
     padding-right: 30px;
     position: relative;
 
@@ -100,7 +128,7 @@ body {
 .offers {
     position: relative;
     text-align: right;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-right: 30px;
     padding-left: 30px
 }
@@ -109,13 +137,13 @@ body {
     text-align: right;
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-right: 30px;
     padding-left: 30px
 }
 .about {
     text-align: right;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-right: 30px;
     padding-left: 30px
 }
