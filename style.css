@@ -69,7 +69,7 @@ body {
     
   }
   .quality-burgers {
-      height: 60%;
+      height: 70%;
       margin-top: 10%;
       width: 25%;
       border-radius: 15px;
@@ -81,7 +81,7 @@ body {
     border-radius: 15px;
 }
   .delicious-meals {
-    height: 60%;
+    height: 70%;
     width: 25%;
     border-radius: 15px;
 }
@@ -212,7 +212,7 @@ body {
 .advert {
     font-size: 20px;
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-    padding: 6%
+    padding: 2px;
 }
 .content {
     font-size: 15px;
@@ -223,6 +223,10 @@ p{
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 .icon {
-    padding-top: 12%;
+    padding-top: 3%;
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
 }
 
