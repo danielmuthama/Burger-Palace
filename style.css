@@ -57,18 +57,33 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
   }
   .secondsection > div {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
     border: solid black 1px;
+    justify-items: center;
+   
+
     
   }
   .quality-burgers {
-      height
+      height: 60%;
+      margin-top: 10%;
+      width: 25%;
   }
-
+  .fast-delivery {
+    height: 80%;
+    width: 30%;
+    border-radius: 15px;
+}
+.delicious-meals {
+    height: 60%;
+    width: 25%;
+    border-radius: 15px;
+}
   .thirdsection {
     width: 85%;
     height: 500px;
@@ -157,17 +172,14 @@ body {
     padding-right: 30px;
     padding-left: 30px
 }
-.subsection1 {
 
-}
-.header-advert {
-    display: flex;
-    flex-direction: column;
-    text-align:left;
-    bottom: 60px;
-    left: 40px;
-}
 .advert {
+    font-size: 20px;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif
+}
+.content {
+    font-size: 15px;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif
 
 }
 
