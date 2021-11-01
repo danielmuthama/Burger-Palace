@@ -12,6 +12,7 @@ body {
     background-color:white;
     display: flex;
     flex-direction: row;
+    /*background: linear-gradient(112deg, #FFC0CB 50%, #00FFFF 0%);*/
   }
 
     .firstsection {
@@ -23,6 +24,7 @@ body {
         padding-top: 120px;
         align-content: flex-end;
         margin-left: 70px;
+        background: linear-gradient(112deg, white 50%, #F6B400 0%);
 
   }
   
