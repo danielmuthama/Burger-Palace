@@ -79,6 +79,7 @@ body {
     height: 80%;
     width: 30%;
     border-radius: 15px;
+
 }
   .delicious-meals {
     height: 70%;
@@ -221,7 +222,7 @@ p{
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 .icon {
-    padding-top: 3%;
+    padding-top: 4%;
     height: auto; 
     width: auto; 
     max-width: 100px; 
@@ -316,3 +317,7 @@ p{
 .align-page {
     align-items: center;
 }
+.basket-icon {
+    position: relative;
+    padding-top: 17px;
+    padding-left: 30px;
