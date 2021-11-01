@@ -267,12 +267,22 @@ p{
     position: absolute;
     left: 100px;
     top: 3320px;
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
 
 }
+
 .contact-icon2 {
     position: absolute;
     left: 250px;
     top: 3320px;
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+
 }
 .phone-icon1 {
     position: absolute;
