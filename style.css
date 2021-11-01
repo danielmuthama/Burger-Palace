@@ -339,3 +339,14 @@ p{
     left: 360px;
     top: 3700px;
 }
+.get-in-touch {
+    position: absolute;
+    top: 3860px;
+    right: 580px;
+}
+.i-icon {
+    height: auto; 
+    width: auto; 
+    max-width: 16px; 
+    max-height: 16px;
+}
