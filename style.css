@@ -7,16 +7,15 @@ body {
     box-sizing: border-box;
   }
   .nav-section {
-    width: 85%;
+    width: 84%;
     height: 50px;
     background-color:white;
     display: flex;
     flex-direction: row;
-    /*background: linear-gradient(112deg, #FFC0CB 50%, #00FFFF 0%);*/
   }
 
     .firstsection {
-        width: 85%;
+        width: 84%;
         height: 600px;
         background-color:white;
         display: flex;
@@ -24,7 +23,7 @@ body {
         padding-top: 120px;
         align-content: flex-end;
         margin-left: 70px;
-        background: linear-gradient(112deg, white 50%, #F6B400 0%);
+        background: linear-gradient(105deg, white 50%, #F6B400 0%);
 
   }
   
@@ -52,7 +51,7 @@ body {
 
   }
   .secondsection {
-    width: 85%;
+    width: 90%;
     height: 500px;
     background-color:#E1EBE6;
     background-clip: content-box;
@@ -98,7 +97,7 @@ body {
     padding: 30px;
   }
   .thirdsection-1 {
-    width: 85%;
+    width: 90%;
     height: 500px;
     background-color:white;
     background-clip: content-box;
@@ -115,7 +114,7 @@ body {
     justify-items: center;
  }
   .thirdsection-2 {
-    width: 85%;
+    width: 90%;
     height: 500px;
     background-color:white;
     background-clip: content-box;
@@ -130,10 +129,11 @@ body {
     font-size: 30px;
     border: solid black 1px;
     justify-items: center;
+    width: 90%;
 }
   
   .forthsection {
-    width: 85%;
+    width: 90%;
     height: 700px;
     background-color:#E1EBE6;
     background-clip: content-box;
@@ -143,19 +143,17 @@ body {
     align-items: center;
   }
   .fifthsection {
-    width: 85%;
+    width: 90%;
     height: 650px;
     background-color: #F6B400;
     background-clip: content-box;
     text-align: center;
   }
   .sixthsection {
-    width: 85%;
+    width: 90%;
     height: 260px;
-;
     background-color:#E1EBE6;
     background-clip: content-box;
-
     text-align: center;
   }
 
@@ -258,7 +256,7 @@ p{
 }
 .contacts {
     position: absolute;
-    left: 60px;
+    left: 100px;
     top: 3100px;
     font-weight: 700;
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
@@ -267,24 +265,24 @@ p{
 }
 .contact-icon1 {
     position: absolute;
-    left: 60px;
+    left: 100px;
     top: 3320px;
 
 }
 .contact-icon2 {
     position: absolute;
-    left: 210px;
+    left: 250px;
     top: 3320px;
 }
 .phone-icon1 {
     position: absolute;
-    top: 3250px;
-    left: 550px
-}
-.phone-icon2 {
-    position: absolute;
-    top: 3250px;
-    left: 750px
+    top: 3100px;
+    left: 650px;
+    padding-top: 4%;
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
 }
 .icon-alignment2 {
     position: absolute;
