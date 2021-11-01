@@ -330,7 +330,7 @@ p{
 .basket-icon {
     position: relative;
     padding-top: 17px;
-    padding-left: 30px;
+    padding-left: 90px;
 }
 .flex-content {
     display: flex;
@@ -349,4 +349,17 @@ p{
     width: auto; 
     max-width: 16px; 
     max-height: 16px;
+}
+.amount {
+position: relative;
+font-size: 16px;
+font-weight: 700;
+}
+.cart-image {
+background-color: #E1EBE6;
+height: auto; 
+width: auto; 
+max-width: 30px; 
+max-height: 30px;
+padding: 7px;
 }
