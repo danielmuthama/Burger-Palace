@@ -355,6 +355,12 @@ position: relative;
 font-size: 16px;
 font-weight: 700;
 }
+.amount1 {
+    background-color:  #E1EBE6;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 30px;
+}
 .cart-image {
 background-color: #E1EBE6;
 height: auto; 
