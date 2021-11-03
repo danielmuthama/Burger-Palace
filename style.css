@@ -1,0 +1,371 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .nav-section {
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+  }
+
+    .firstsection {
+        width:100%;
+        height: 600px;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+        align-content: flex-end;
+        margin-left: 70px;
+        background: linear-gradient(105deg, white 50%, #F6B400 0%);
+
+  }
+  
+  .order-now {
+      width: 100px;
+      height: 40px;
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: #F6B400;
+      border-color: white;
+      margin-top: 100px;
+      margin-left: 75px;
+      flex-direction: row;
+  }
+  .city-image-alignment {
+      position:absolute;
+      left: 550px;
+      top: 150px;
+      height: auto; 
+      width: auto; 
+      max-width: 400px; 
+      max-height: 400px;
+      
+
+  }
+  .secondsection {
+    width: 100%;
+    height: 500px;
+    background-color:#E1EBE6;
+    background-clip: content-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondsection > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid black 1px;
+    justify-items: center;
+   
+    
+  }
+  .quality-burgers {
+      height: 70%;
+      margin-top: 10%;
+      width: 25%;
+      border-radius: 15px;
+
+  }
+  .fast-delivery {
+    height: 80%;
+    width: 30%;
+    border-radius: 15px;
+
+}
+  .delicious-meals {
+    height: 70%;
+    width: 25%;
+    border-radius: 15px;
+}
+  .cart-title {
+    width: 85%;
+    height: 100px;
+    background-color:white;
+    background-clip: content-box;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 30px;
+  }
+  .thirdsection-1 {
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    background-clip: content-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+ .thirdsection-1 > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid black 1px;
+    justify-items: center;
+ }
+  .thirdsection-2 {
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    background-clip: content-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.thirdsection-2 > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid black 1px;
+    justify-items: center;
+    width: 90%;
+}
+  
+  .forthsection {
+    width: 100%;
+    height: 700px;
+    background-color:#E1EBE6;
+    background-clip: content-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fifthsection {
+    width: 100%;
+    height: 650px;
+    background-color: #F6B400;
+    background-clip: content-box;
+    text-align: center;
+  }
+  .sixthsection {
+    width: 100%;
+    height: 260px;
+    background-color:#E1EBE6;
+    background-clip: content-box;
+    text-align: center;
+  }
+
+  .icon-alignment {
+      float: left;
+      position: relative;
+
+  }
+
+  em {
+    color: #F6B400;
+  }
+
+ .burger-logo {
+     text-align: left;
+     padding-top: 25px;
+     position: relative;
+     font-weight: 800;
+   }
+   a:hover {
+    border-bottom: 2px solid red;
+}
+.home {
+    text-align: left;
+    padding-top: 25px;
+    margin-left: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+
+   }
+.offers {
+    position: relative;
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px
+}
+.contact {
+    position: relative;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px
+}
+.about {
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px
+}
+
+.advert {
+    font-size: 20px;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+}
+.content {
+    font-size: 15px;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif
+
+}
+p{
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon {
+    padding-top: 4%;
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+}
+.advertisement {
+    position: absolute;
+    left: 230px;
+}
+.advert-icon {
+    position: absolute;
+    left: 580px;
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+}
+.advert-icon2 {
+    position: absolute;
+    left: 540px;
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+    z-index: 1;
+}
+.advert-content {
+    position: absolute;
+    left: 230px;
+    top: 2700px;
+}
+.contacts {
+    position: absolute;
+    left: 100px;
+    top: 3100px;
+    font-weight: 700;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+.contact-icon1 {
+    position: absolute;
+    left: 100px;
+    top: 3320px;
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+
+}
+
+.contact-icon2 {
+    position: absolute;
+    left: 250px;
+    top: 3320px;
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+
+}
+.phone-icon1 {
+    position: absolute;
+    top: 3100px;
+    left: 650px;
+    padding-top: 4%;
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+}
+.icon-alignment2 {
+    position: absolute;
+    top: 3700px;
+    left: 110px;
+}
+.burger-logo2 {
+    position: absolute;
+    left: 200px;
+    top: 3720px;
+}
+.search-bar {
+    position: absolute;
+    left: 800px;
+    top: 3800px;
+}
+.email {
+    position: absolute;
+    left: 800px;
+    top: 3720px;
+}
+.copyright {
+    position: absolute;
+    left: 120px;
+    top: 3850px
+}
+.designer {
+    position: absolute;
+    left: 840px;
+    top: 3850px;
+}
+.align-page {
+    align-items: center;
+}
+.basket-icon {
+    position: relative;
+    padding-top: 17px;
+    padding-left: 90px;
+}
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 360px;
+    top: 3700px;
+}
+.get-in-touch {
+    position: absolute;
+    top: 3860px;
+    right: 580px;
+}
+.i-icon {
+    height: auto; 
+    width: auto; 
+    max-width: 16px; 
+    max-height: 16px;
+}
+.amount {
+position: relative;
+font-size: 16px;
+font-weight: 700;
+}
+.amount1 {
+    background-color:  #E1EBE6;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 30px;
+}
+.cart-image {
+background-color: #E1EBE6;
+height: auto; 
+width: auto; 
+max-width: 30px; 
+max-height: 30px;
+padding: 7px;
+}
