@@ -6,15 +6,15 @@ body {
   * {
     box-sizing: border-box;
   }
-  .nav-section {
+
+  .align {
+    background: linear-gradient(105deg, white 50%, #F6B400 0%);
+    height: 600px;
     width: 100%;
-    height: 50px;
-    background-color:white;
-    display: flex;
-    flex-direction: row;
+
   }
 
-    .firstsection {
+    .firstsection{
         width:100%;
         height: 600px;
         background-color:white;
@@ -35,8 +35,8 @@ body {
       border-top-right-radius: 20px;
       background-color: #F6B400;
       border-color: white;
-      margin-top: 100px;
-      margin-left: 75px;
+      margin-top: 140px;
+      margin-left: 120px;
       flex-direction: row;
   }
   .city-image-alignment {
@@ -159,7 +159,8 @@ body {
 
   .icon-alignment {
       float: left;
-      position: relative;
+      padding-left: 40px;
+      padding-top: 20px;
 
   }
 
@@ -169,17 +170,27 @@ body {
 
  .burger-logo {
      text-align: left;
-     padding-top: 25px;
+     padding-top: 15px;
      position: relative;
      font-weight: 800;
    }
    a:hover {
     border-bottom: 2px solid red;
 }
+.def {
+position: relative;
+left: 100px;
+top: 40px;
+}
+.def2 {
+position: relative;
+left: 100px;
+top: 60px
+}
 .home {
     text-align: left;
-    padding-top: 25px;
-    margin-left: 300px;
+    padding-top: 15px;
+    margin-left: 400px;
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
@@ -188,14 +199,13 @@ body {
 .offers {
     position: relative;
     text-align: right;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-right: 30px;
     padding-left: 30px
 }
 .contact {
     position: relative;
     text-align: right;
-    display: flex;
     flex-direction: row-reverse;
     padding-top: 25px;
     padding-right: 30px;
@@ -330,7 +340,7 @@ p{
 .basket-icon {
     position: relative;
     padding-top: 17px;
-    padding-left: 90px;
+    padding-left: 150px;
 }
 .flex-content {
     display: flex;
