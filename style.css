@@ -340,7 +340,7 @@ p{
 .basket-icon {
     position: absolute;
     padding-top: .3px;
-    padding-left: 15%;
+    padding-left: 50px;
 }
 .flex-content {
     display: flex;
