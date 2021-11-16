@@ -338,9 +338,9 @@ p{
     align-items: center;
 }
 .basket-icon {
-    position: relative;
-    padding-top: 17px;
-    padding-left: 150px;
+    position: absolute;
+    padding-top: .3px;
+    padding-left: 15%;
 }
 .flex-content {
     display: flex;
